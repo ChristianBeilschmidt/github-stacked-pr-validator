@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+    "css": "tailwindcss -i ./style/input.css -o ./style/output.css --minify",
+    "css:watch": "tailwindcss -i ./style/input.css -o ./style/output.css --watch",
+    "test:e2e": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@tailwindcss/cli": "^4.3.5",
+    "tailwindcss": "^4.3.5"
+  }
+}
